@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 516a875796bda8348b423743670cfe6c, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  drawerInteractionMask:
+    serializedVersion: 2
+    m_Bits: 64
+  drawingLinePrefab: {fileID: 2498533245253695755, guid: 2ad474c72d679d04d94b2f241418c420, type: 3}
+  maxRaycastDistance: 100
+  minSqrDistanceBetweenPoints: 1
+  drawingTemplates:
+  - {fileID: 11400000, guid: c9c46d934f368194d86083c45e636a71, type: 2}
+  - {fileID: 11400000, guid: f3f896d72d25f3046bd138ba793e8970, type: 2}
+  - {fileID: 11400000, guid: 72c5cd44850a74b49bc68c7802ca2f7a, type: 2}
+  - {fileID: 11400000, guid: 7ed097c72b95dd34e9ec9efba5de4a4a, type: 2}
+  - {fileID: 11400000, guid: 62fdb08373e9ea84aa67856eb234b4d5, type: 2}
+  - {fileID: 11400000, guid: 0848ea16626946c48b2e557f0aa62e5d, type: 2}
+  pointsSamplesCount: 32
+  matrixSize: 64
+  defaultTemplateSavingPath: Assets/ScriptableObjects/Templates
+  defaultTemplateImageSavingPath: Assets/Images/TemplatePreviews
